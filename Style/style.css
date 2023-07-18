@@ -325,3 +325,62 @@
  .games>h1{
     font-size: 18px;
  }
+ /* footer section style css  */
+ .footer{
+    padding: 50px 0;
+    color: white;
+    background-color: black;
+    
+ }
+ 
+.footer-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.footer-logo>h1{
+    display: flex;
+    font-size: 35px;
+    font-weight: 700;
+}
+.footer-logo>h1>span{
+    color: #FF42A5;
+}
+.footer-colation{
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+
+}
+.footer-socail{
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+
+}
+.footer-socail>i{
+    font-size: 40px;
+
+}
+.footer-detailes{
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+
+}
+.footer-detailes>h1{
+    font-size: 25px;
+    color: rgba(236, 235, 235, 0.747);
+}
+.copy{
+    text-align: center;
+    font-size: 17px;
+    color: rgba(236, 235, 235, 0.486);
+}
