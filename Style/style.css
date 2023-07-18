@@ -262,3 +262,66 @@
  .anywhere-tile>div>h1>span{
     color: #D84DC5;
  }
+ /* careers section style css  */
+ .careers-body{
+    background-color: #FF42A5;
+    padding: 20px 0;
+    margin-top: 10px;
+ }
+ .careers{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+ }
+ .careers-title{
+    width: 50%;
+    color: white;
+ }
+ .careers-title>h1{
+   font-size: 35px;
+   font-weight: 700;
+   padding-bottom: 10px;
+ }
+ .careers-title>p{
+   font-size: 18px;
+   padding-bottom: 10px;
+ }
+ .data-section{
+    margin-top: 20px;
+ }
+ .data{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+ }
+ .all-positions{
+    border: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 20px;
+    margin-top: 20px;
+    color: rgba(255, 0, 0, 0.685);
+ }
+ .careers-img{
+    width: 50%;
+ }
+ .careers-img>img{
+    width: 100%;
+ }
+ /* games section style css  */
+ .new-games{
+    margin: 40px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+ }
+ .games{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+ }
+ .games>h1{
+    font-size: 18px;
+ }
