@@ -70,11 +70,18 @@
    display: flex;
    justify-content: space-between;
    align-items: center;
-   align-items: center;
+
 }
 
 .banner-title {
    width: 50%;
+   background-image: url(../images/Group\ 14.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 400px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
 }
 
 .banner-title>h1 {
@@ -460,44 +467,46 @@
 }
 
 /* responsive style css  */
-
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 577px) {
    .header {
       flex-direction: column;
       gap: 20px;
-      
    }
+
    .nav-link {
-      /* display: flex;
-      align-items: center;
-      gap: 15px; */
       flex-direction: column;
-
    }
 
-   .nav-link>li {
-      list-style: none;
-      font-size: 25px;
+   /* banner section style css  */
+   .banner {
+      flex-direction: column-reverse;
    }
 
-   .nav-link>li>a {
-      text-decoration: none;
-      color: black;
+   .banner-title {
+      width: 100%;
+      align-items: center;
    }
 
-   .follow {
-      display: flex;
-      gap: 10px;
-      background-color: #E7E6E9;
-      padding: 10px 20px;
-      border-radius: 10px;
+   .banner-img {
+      width: 100%;
    }
 
-   .youtube {
-      color: red;
+   .banner-img>img {
+      width: 100%;
    }
 
-   .tittock {
-      color: rgb(38, 0, 255);
+   /* gamer section style css  */
+   .gamer-body {
+      background-color: white;
    }
+   .gamer {
+      flex-direction: column;
+   }
+   .gamer-img {
+      width: 100%;
+   }
+   .gamer-title {
+      text-align: center;
+   }
+
 }
